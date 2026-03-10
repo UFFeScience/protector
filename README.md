@@ -122,3 +122,10 @@ cargo run --release -- \
   --vehicles 4 \
   --max-distance 5000 \
   --zones 3
+
+src/
+ ├─ graph/        # Crime graph data structures
+ ├─ routing/      # Route construction algorithms
+ ├─ heuristics/   # GRASP and local search procedures
+ ├─ datasets/     # Dataset loaders and preprocessing
+ └─ cli/          # Command-line interface
