@@ -1,4 +1,4 @@
-# Cover Crime Problem
+# Routing of Police Vehicles in Large Urban Centers (RVP-Urb)
 
 This project provides tools to support **preventive police patrol planning** through optimization and heuristic techniques.
 The goal is to improve the allocation and routing of police patrol units in urban environments by maximizing coverage of crime hotspots while respecting operational constraints such as route length, available vehicles, and territorial zones.
