@@ -1,0 +1,6 @@
+num_vertices num_arcos num_zonas num_unidades_fixas num_unidades_interzona num_unidades_intrazona tam_max_interzona tam_max_intrazona
+v_i z_j                 <- vert. e zona do vert. (n linhas)
+v_i v_j cf_ij l_ij     <- arco ij, fator de crime de ij e distância de ij (m linhas)
+
+
+vip_number num_vips vip_1 vip_2..... vip_vip

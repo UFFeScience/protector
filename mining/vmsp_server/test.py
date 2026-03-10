@@ -1,0 +1,16 @@
+import requests
+
+url = "http://localhost:8001"
+
+t = """
+1 -1 1 2 3 -1 1 3 -1 4 -1 3 6 -1 -2
+1 4 -1 3 -1 2 3 -1 1 5 -1 -2
+5 6 -1 1 2 -1 4 6 -1 3 -1 2 -1 -2
+5 -1 7 -1 1 6 -1 3 -1 2 -1 3 -1 -2
+"""
+
+params = {'input': t, 'minsup': 0.5} 
+
+r = requests.post(url=url, data=params)
+
+print(r.text)

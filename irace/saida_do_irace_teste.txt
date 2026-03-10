@@ -1,0 +1,24 @@
+# 2022-07-01 13:45:46 -03: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    alpha sectionsize loopedges
+10 0.3210      0.3049    0.3177
+2  0.0629      0.3485    0.3282
+12 0.5632      0.2744    0.1658
+# 2022-07-01 13:45:46 -03: Stopped because there is not enough budget left to race more than the minimum (3)
+# You may either increase the budget or set 'minNbSurvival' to a lower value
+# Iteration: 4
+# nbIterations: 4
+# experimentsUsedSoFar: 97
+# timeUsed: 0
+# remainingBudget: 3
+# currentBudget: 3
+# number of elites: 3
+# nbConfigurations: 3
+# Best configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    alpha sectionsize loopedges
+10 0.3210      0.3049    0.3177
+2  0.0629      0.3485    0.3282
+12 0.5632      0.2744    0.1658
+# Best configurations as commandlines (first number is the configuration ID; same order as above):
+10  --alpha 0.321 --max-section-size 0.3049 --max-edges-between-loop 0.3177
+2   --alpha 0.0629 --max-section-size 0.3485 --max-edges-between-loop 0.3282
+12  --alpha 0.5632 --max-section-size 0.2744 --max-edges-between-loop 0.1658
